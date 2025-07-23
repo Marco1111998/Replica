@@ -2,7 +2,7 @@ name: Update streams
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 20 * * *"
 permissions: 
   contents: write
 
