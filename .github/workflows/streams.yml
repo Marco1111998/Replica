@@ -2,7 +2,9 @@ name: Update streams
 
 on:
   schedule:
-    - cron: "0 20 * * *"
+    - cron: "0 20 * * *"  # Executa todos os dias às 20h UTC
+  workflow_dispatch:       # Permite executar manualmente pelo GitHub
+
 permissions: 
   contents: write
 
@@ -26,8 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git pull
           cd M3U
-          git add M3UPT.m3u
-          git commit -m "Update streams"
+          git add M3UPT.m3u || echo "Nenhuma alteração para adicionar"
+          git diff --cached --quiet || git commit -m "Update streams"
+          git pull --rebase
           git push
