@@ -31,6 +31,6 @@ jobs:
 
       - name: Commit & Push da playlist
         run: |
-          git add video_playlist.m3u8
+          git add video_playlist.m3u
           git diff --cached --quiet || git commit -m "Atualização automática da video_playlist.m3u8"
           git push
