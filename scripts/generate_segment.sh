@@ -3,19 +3,20 @@ set -e
 
 cd data
 
+# Valor fixo do segmento inicial
 incremento=60000000
-baseSegmento=$(date +%s%N)
+baseSegmento=17543840737868290
 
-# Hora atual em formato 24h numérico (ex: 20)
+# Hora atual local
 horaAtual=$(date +"%H")
-horaAtual=$((10#${horaAtual}))  # remover zeros à esquerda
+horaAtual=$((10#${horaAtual}))
 
 echo "#EXTM3U" > video_playlist.m3u
 echo "#EXT-X-VERSION:3" >> video_playlist.m3u
 echo "#EXT-X-TARGETDURATION:6" >> video_playlist.m3u
 echo "#EXT-X-PLAYLIST-TYPE:VOD" >> video_playlist.m3u
 
-# Gera apenas blocos para horas futuras (horaAtual + 1 até 23)
+# Gera blocos apenas para horas futuras
 for h in $(seq $((horaAtual + 1)) 23); do
   horaUTC=$(((10 + h) % 24))
   baseHora=$((baseSegmento + h * 3600 * incremento / 6))
