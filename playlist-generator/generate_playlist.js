@@ -29,4 +29,4 @@ for (let h = horaAtual + 1; h <= 23; h++) {
   }
 }
 
-fs.writeFileSync("video_playlist.m3u8", linhas.join("\n"), "utf8");
+fs.writeFileSync("video_playlist.m3u", linhas.join("\n"), "utf8");
