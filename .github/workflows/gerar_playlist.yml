@@ -22,7 +22,7 @@ jobs:
           node-version: '18'
 
       - name: Gerar nova playlist
-        run: node generate_playlist.js
+        run: node playlist-generator/generate_playlist.js
 
       - name: Configurar Git
         run: |
