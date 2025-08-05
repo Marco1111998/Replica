@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const canal = "LIVE$SIC_HD";
-const baseSegmento = 17543840737868290; // Segmento inicial das 10h da manhã
+const baseSegmento = 17543840737868290; // Segmento que corresponde às 10h
 const incremento = 60000000;
 const horaAtual = new Date().getHours();
 
@@ -14,14 +14,19 @@ const linhas = [
   "#EXT-X-PLAYLIST-TYPE:VOD"
 ];
 
-// ✅ Corrigido: começa na horaAtual (não +1)
-for (let h = horaAtual; h <= 23; h++) {
-  const horaUTC = (10 + h) % 24;
-  const baseHora = baseSegmento + h * 3600 * incremento / 6;
+// 🔁 Gera apenas blocos de horaAtual até às 23h
+for (let h = horaAtual; h < 24; h++) {
+  const horaFormatada = h.toString().padStart(2, '0');
+
+  // 📌 Corrigido: cálculo com base na referência das 10h
+  const horasDesdeBase = h - 10;
+  if (horasDesdeBase < 0) continue; // Evita gerar blocos antes das 10h
+
+  const baseHora = baseSegmento + horasDesdeBase * 3600 * incremento / 6;
 
   linhas.push("");
   linhas.push(`#EXT-X-DISCONTINUITY`);
-  linhas.push(`#EXT-X-TIME-START: Hora ${horaUTC.toString().padStart(2, '0')}:00`);
+  linhas.push(`#EXT-X-TIME-START: Hora ${horaFormatada}:00`);
 
   for (let i = 0; i < 600; i++) {
     const segmento = baseHora + i * incremento;
@@ -30,5 +35,5 @@ for (let h = horaAtual; h <= 23; h++) {
   }
 }
 
-// ✅ Corrigido: método completo para escrever o ficheiro
+// ✅ Gera o ficheiro final
 fs.writeFileSync("video_playlist.m3u", linhas.join('\n'));
