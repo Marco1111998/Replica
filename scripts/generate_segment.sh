@@ -6,12 +6,17 @@ cd data
 incremento=60000000
 baseSegmento=$(date +%s%N)
 
+# Hora atual em formato 24h numérico (ex: 20)
+horaAtual=$(date +"%H")
+horaAtual=$((10#${horaAtual}))  # remover zeros à esquerda
+
 echo "#EXTM3U" > video_playlist.m3u
 echo "#EXT-X-VERSION:3" >> video_playlist.m3u
 echo "#EXT-X-TARGETDURATION:6" >> video_playlist.m3u
 echo "#EXT-X-PLAYLIST-TYPE:VOD" >> video_playlist.m3u
 
-for h in $(seq 0 23); do
+# Gera apenas blocos para horas futuras (horaAtual + 1 até 23)
+for h in $(seq $((horaAtual + 1)) 23); do
   horaUTC=$(((10 + h) % 24))
   baseHora=$((baseSegmento + h * 3600 * incremento / 6))
 
