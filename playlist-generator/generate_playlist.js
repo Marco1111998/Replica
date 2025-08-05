@@ -14,7 +14,8 @@ const linhas = [
   "#EXT-X-PLAYLIST-TYPE:VOD"
 ];
 
-for (let h = horaAtual + 1; h <= 23; h++) {
+// ✅ Corrigido: começa na horaAtual (não +1)
+for (let h = horaAtual; h <= 23; h++) {
   const horaUTC = (10 + h) % 24;
   const baseHora = baseSegmento + h * 3600 * incremento / 6;
 
@@ -29,4 +30,5 @@ for (let h = horaAtual + 1; h <= 23; h++) {
   }
 }
 
-fs.writeFileSync("video_playlist.m3u", linhas.join("\n"), "utf8");
+// ✅ Corrigido: método completo para escrever o ficheiro
+fs.writeFileSync("video_playlist.m3u", linhas.join('\n'));
