@@ -14,7 +14,7 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMy8yMDI1IDg6MTc6MiBQTSZoYXNoX3ZhbHVlPUdmRmNIcmNraUI3ZXh5U1dZSkZFTXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kYzA3Y2FkOC1lZGJhLTRlMDctODk0Yi1jMjlmNjcwNzhjNWI=/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMy8yMDI1IDk6MTM6NTIgUE0maGFzaF92YWx1ZT04NTM5bzVDaFZKRnBuNTZ6MzF1T3N3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTA2Yjg3OTEtOGEzZC00MGNkLWJmODQtYzM0MTZkYTJiYTNm/
 
 #EXTINF:-1,RTP 3
 #EXTVLCOPT:http-user-agent=IE
@@ -25,7 +25,7 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMy8yMDI1IDg6MTc6MyBQTSZoYXNoX3ZhbHVlPW5rWDJKUnR0RkdrWm1YMk5BVXFMRUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yZTJkYzYzZC0xY2VmLTRhNWYtODgzMy02ZmIzZDk1ZWM3YWY=/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMy8yMDI1IDk6MTM6NTMgUE0maGFzaF92YWx1ZT1CZFBxRWU5bGk0WFA1aUtuZW5UQzd3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDE5NTVjYzctZTdkZi00ZWIxLWI5N2EtM2RjYmRmYTY0MzYx/
 
 #EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
 #https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u
@@ -54,7 +54,7 @@ https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="TVIInternacional.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
-https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMy8yMDI1IDg6MTc6NCBQTSZoYXNoX3ZhbHVlPUlwZm93TGZ6b1pFNjFYUlZpb1VoQWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNTQzNzdkYy04NDUxLTRiNzQtOTNhNC1kZWI1ZWQ5ODE0NGU=/
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMy8yMDI1IDk6MTM6NTQgUE0maGFzaF92YWx1ZT1LZGg3MHowNlpSdEw5NEQ4ZkE0cWt3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDNiMjFiMGUtODllOS00NDdkLTgwODctMDkyODQ2ZDIyZTRj/
 
 #EXTINF:-1 group-title="TV" tvg-id="TVIInternacional.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
 #https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI_Internacional.m3u
