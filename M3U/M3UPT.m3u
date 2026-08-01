@@ -19,7 +19,7 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 https://sic.live.impresa.pt/sic1080p.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgOTo1Nzo1MSBBTSZoYXNoX3ZhbHVlPW43VmlCM0c0aFNDVzVyVUtITHVuRHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zOWMwOTkyZS0xYzVmLTQ4ZTYtOTM3ZS00ZTNkOTIwYWFjZTM=/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgMTE6MjI6MjEgQU0maGFzaF92YWx1ZT1kOFBJdE5uR1YvRUVaQ3d1RzFNemtRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YmY0N2M0M2MtZGJiNy00ZDlhLWJlMGEtMTc5ZDIzM2M4ZTNi/
 
 #EXTINF:-1 group-title="TV" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
 #EXTVLCOPT:http-user-agent=Firefox
@@ -34,22 +34,22 @@ https://sicnot.live.impresa.pt/sicnot.m3u8
 https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgOTo1Nzo1MiBBTSZoYXNoX3ZhbHVlPXRwNk1xSEpmK0c3MlFmU2JxRVo4cUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zMzQ4YmI4MC00ZjIxLTRmNTAtYTAyYy03ZGM3MTc3NzQ2MTQ=/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgMTE6MjI6MjIgQU0maGFzaF92YWx1ZT0wTWYwQWZXUmZTbjB6T04vZjdsTEJnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTUzYThhZDYtMjVjYS00OGVkLTk5NTAtYjQxZGM2YTdiMWNm/
 
 #EXTINF:-1 group-title="TV" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="VPlusTVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/vmaistvi.png",V+ TVI
-https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgOTo1Nzo1MiBBTSZoYXNoX3ZhbHVlPW1yM3dVWXN1aTd1UmpWdTBieDQ5bUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01ZDY3YWUxYS01ZTc1LTQ0MzgtYjg4NS00NmVkMDEzZmQxMzM=/
+https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgMTE6MjI6MjIgQU0maGFzaF92YWx1ZT1acXl3aHc4aHZmell3TXhaby9qWVFnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWViMWVlMzAtZGQ2OS00YTdjLWE5NmItMjA4Nzg5NjQ5ZGM5/
 
 #EXTINF:-1 group-title="TV" tvg-id="TVIFiccao.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
-https://video-auth1.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgOTo1Nzo1MiBBTSZoYXNoX3ZhbHVlPWN5czRrQTI0YUd0VVROS3d4NEhkT3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1hYWZiZDk1OS02MjJkLTRiZGYtODBiOS0xMDRkZDNjMzA5ZTc=/
+https://video-auth1.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgMTE6MjI6MjMgQU0maGFzaF92YWx1ZT1JZXdmczhOV2czWlhIMzdnbmVMMmFRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWE4ZjE4NjYtZGRkNi00NTVlLWE1YjYtNmY5YWU5ODM3MDBi/
 
 #EXTINF:-1 group-title="TV" tvg-id="TVIAfrica.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI_África.png",TVI Africa
 https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="TVIReality.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png",TVI Reality
-https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgOTo1Nzo1MyBBTSZoYXNoX3ZhbHVlPWMwZVJIL2FyMW5PS3BGNEJNTFZiL1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01ZWIyYmZkYi05NDYzLTQ4MzQtOThlOC0wZjJmODg4NGU0NGE=/
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgMTE6MjI6MjQgQU0maGFzaF92YWx1ZT1DbXpzVlQ0TU5qL3dFTC9CcUNMcmxBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTc1NWE4NTMtMzIxNS00YmE3LWE3MTYtYjU2N2U3YWNmN2Q3/
 
 #EXTINF:-1 group-title="TV" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Replay.png",SIC Replay
 #EXTVLCOPT:http-user-agent=IE
@@ -128,7 +128,7 @@ https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="TVIInternacional.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
-https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgOTo1Nzo1NCBBTSZoYXNoX3ZhbHVlPU51NlRCNGZJZVdCZDZacDIvZEZUQWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD03OWQ1NGQ1Yi1iMjY5LTQzZTYtOWU1Mi05NjliNDEzYTYwMDI=/
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjYgMTE6MjI6MjQgQU0maGFzaF92YWx1ZT0wVjc5Y2ZmRURTQzZRVll2bzdGR0JBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDE1YjhkZGYtYWU4MC00MDdjLWFiZGItZmMzMmI5YzRiZTNk/
 
 #EXTINF:-1 group-title="TV" tvg-id="GaliciaTVEuropa.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVG.png",TV Galicia
 https://crtvg-europa.flumotion.cloud/playlist.m3u8
